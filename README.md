@@ -5,26 +5,26 @@
 
 ## Overview :
 
-This project upgrades your bike’s light and take it to the next level such that the backlight of the bike notify other riders with your riding turning direction automatically.
+The idea is to build a simple DIY egg hatching car. The car is constructed with plastic container so you can place your phone inside and it will drive hatching eggs for you instead. 
 
-## Description :
+The car has obstacle avoidance feature , thanks to the ultrasonic sensors placed around the car. Since the game has different types of eggs (3km, 5km, 10km) the car also includes adjustment settings to accommodate different distances.
+red color incase of riding in forward direction.
 
-Blinking towards the direction of turning in green ( e.g. Turning to the Left or the Right ) 
-Turns to red color incase of riding in forward direction.
+## Goals :
+*	Vehicle moves for a user-defined distance. 
+*	Vehicle is provided with obstacle avoidance feature.
+*	Wireless control via bluetooth.
 
 ## Components used :
 
-* Arduino Microcontroller (e.g. UNO or Nano )
+* 	Arduino UNO
 
-* Accelerometer ( e.g. Sparkfun MMA845Q )
+* 	Ultrasonic Sensor
 
-* Adafruit Neopixel stick ( or you can build one on your own using ws2812b LEDs ) 
+*  	Bluetooth module
 
-* Resistors ( e.g 330 ohm )
+*  	H-Bridge motor controller 
 
 ##
 
 
-  Schematics and documentation are down in the link below 
-
-  http://www.deviceplus.com/how-tos/arduino-guide/smart-arduino-bike-lighting-system/
